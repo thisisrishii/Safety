@@ -1,0 +1,50 @@
+.img1{
+    width: 100px;
+    height: 80px;
+    padding-top: 1%;
+}
+.topbutton1{
+    width: 50%;
+    text-align: center;
+    padding-top: 10%;
+    position: absolute;
+    right: 0%;
+}
+.topbutton2{
+    width: 50%;
+    padding-top: 10%;
+    position: absolute;
+    left: 0%;
+    margin-left: 10%;
+}
+a:link{
+    color: white;
+    display: block;
+    padding: 3%;
+    font-size: 120%;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightgrey;
+}
+nav{
+    margin-top: 1%;
+    background-color: darkslategrey;
+    text-align: center;
+}
+footer{
+    background-color: darkslategrey;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+form{
+    margin-top: 3%;
+}
+.a1{
+    margin-top: 1%;
+}
+.a2{
+    position: absolute;
+    right: 47.5%;
+}
