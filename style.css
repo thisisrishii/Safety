@@ -20,7 +20,6 @@
 a:link{
     color: white;
     display: block;
-    padding: 3%;
     font-size: 120%;
     text-decoration: none;
 }
@@ -37,6 +36,7 @@ footer{
     text-align: center;
     margin-top: 4%;
     margin-bottom: 1%;
+    padding: 1%;
 }
 form{
     margin-top: 3%;
@@ -94,4 +94,29 @@ form{
 .img2{
     width: 35%;
     height: 25%;
+}
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+.mainpage{
+    background-image: url('https://gdurl.com/lBtYk');
+    background-color: transparent;
+    background-attachment: fixed;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainbtn{
+    position: absolute;
+    left: 40%;
+    margin-top: 45%;
+    width: 20%;
+}
+.mainbtn2{
+    position: absolute;
+    left: 40%;
+    margin-top: 80%;
+    width: 20%;
+    color: red;
 }
