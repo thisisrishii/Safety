@@ -20,6 +20,7 @@
 a:link{
     color: white;
     display: block;
+    padding: 3%;
     font-size: 120%;
     text-decoration: none;
 }
@@ -36,7 +37,6 @@ footer{
     text-align: center;
     margin-top: 4%;
     margin-bottom: 1%;
-    padding: 1%;
 }
 form{
     margin-top: 3%;
@@ -95,28 +95,53 @@ form{
     width: 35%;
     height: 25%;
 }
-.my-container {
-    position: relative;
-    overflow: hidden;
+.mnv{
+	margin: 2%;
+	font-size:24px;
+	color: #808080; 
+	margin-top: 2%;
+	font-family: 'Georgia';
 }
-.mainpage{
-    background-image: url('https://gdurl.com/lBtYk');
-    background-color: transparent;
-    background-attachment: fixed;
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+.tab{
+	display: inline-block;
+    margin-left: 40px;
 }
-.mainbtn{
-    position: absolute;
-    left: 40%;
-    margin-top: 45%;
-    width: 20%;
+.data{
+	margin: 2%;
+	padding: 2%;
+	color:#003333;
+	font-size: 16px;
+	font-family: 'Georgia';
+	border-bottom: dashed  ;
+	border-bottom-color:#808080;
 }
-.mainbtn2{
-    position: absolute;
-    left: 40%;
-    margin-top: 80%;
-    width: 20%;
-    color: red;
+.bor{
+	border-style: double;
+	margin: 2%;
+	padding: 2%;
+	font-family: 'Georgia';
 }
+.img3{
+	width: 45%;
+    height: 110%;
+	border-radius: 50%;
+	position: absolute;
+	right:30%;
+}
+.mar{
+	font-family: 'Georgia';
+	margin: 2%;
+	padding:2%;
+	color: red;
+	font-size:24px;
+	border-bottom:dashed ;
+	border-bottom-color:#808080;
+	margin-top:-2%
+}
+.det{
+	text-align:center;
+	margin: 2%;
+	padding:2%;
+	font-size:14px;
+}
+	
