@@ -165,3 +165,31 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+.mainpage{
+    background-image: url('https://gdurl.com/lBtYk');
+    background-color: transparent;
+    background-attachment: fixed;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainbtn{
+    position: absolute;
+    left: 40%;
+    margin-top: 45%;
+    width: 25%;
+}
+.mainbtn2{
+    position: absolute;
+    left: 40%;
+    margin-top: 80%;
+    width: 25%;
+}
+.details{
+    width: 100%;
+    height: 50%;
+}
+.types{
+    width: 80%;
+    height: 20%;
+}
