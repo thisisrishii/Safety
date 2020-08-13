@@ -115,9 +115,31 @@ form{
     background-position: center;
 }
 .mainbtn{
+<<<<<<< HEAD
     width: 20%;
     margin-bottom: 3%;
 }
 .cent{
     margin-top: 25%;
 }
+=======
+    position: absolute;
+    left: 40%;
+    margin-top: 45%;
+    width: 25%;
+}
+.mainbtn2{
+    position: absolute;
+    left: 40%;
+    margin-top: 80%;
+    width: 25%;
+}
+.details{
+    width: 100%;
+    height: 50%;
+}
+.types{
+    width: 80%;
+    height: 20%;
+}
+>>>>>>> 2e5760d523e39f6775713087e2a89d0235e4d5a2
