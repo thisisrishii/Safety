@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body class="mapbody">
+        <!--The div element for the map -->
+      <div id="map" class="maps">
+           <script>
+        // Initialize and add the map
+        function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 18.987202, lng: 72.829048};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 7, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});}
+      </script>
+       <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdT9WWmCNYJoNQOoeW17BiQBtKIjqGhFY&callback=initMap">
+     </script>
+      </div>
+    </body>
+</html>
