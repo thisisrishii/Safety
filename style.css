@@ -2,7 +2,12 @@
     width: 100px;
     height: 80px;
     padding-top: 1%;
+    text-align: center;
+    float: left;
 }
+ 
+/* logo center */
+
 .topbutton1{
     width: 50%;
     text-align: center;
@@ -24,6 +29,7 @@ a:link{
 }
 a:hover {
     background-color: lightgrey;
+    display: block;
 }
 nav{
     margin-top: 1%;
@@ -31,22 +37,14 @@ nav{
     text-align: center;
 	margin-bottom:2%;
 }
-footer{
-    background-color: darkslategrey;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 1%;
-}
+
 form{
     margin-top: 3%;
 }
 .email{
     margin-top: 1%;
 }
-.signupbtn{
-    position: absolute;
-    right: 47.5%;
-}
+
 .loginbox{
     background: transparent;
     border: solid 2px;
@@ -166,6 +164,50 @@ table, th, td {
     width: 100%;
     height: 50%;
 }
+.types{
+    width: 80%;
+    height: 20%;
+}
+
+/* footer */
+footer{
+    background-color: darkslategrey;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    /* font-size: large; */
+}
+
+footer .row p{
+    color: white;
+}
+
+
+footer .row i{
+    color: white;
+}
+
+footer .row .contact span{
+    color: white;
+}
+
+footer .row .links h4{
+    color: white;
+}
+.feed{
+    color: white;
+}
+ 
+
+.row a{
+    color: white;
+}
+
+.row h4{
+    color: white;
+}
+
+
 .center1{
     margin-top: 20%;
 }
