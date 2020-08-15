@@ -1,4 +1,4 @@
-.img1{
+.logo{
     width: 100px;
     height: 80px;
     padding-top: 1%;
@@ -12,25 +12,24 @@
     width: 50%;
     text-align: center;
     padding-top: 10%;
-    position: absolute;
-    right: 0%;
 }
 .topbutton2{
     width: 50%;
     padding-top: 10%;
-    position: absolute;
-    left: 0%;
-    margin-left: 10%;
+}
+.topbutton3{
+    width: 20%;
+    padding-top: 10%;
 }
 a:link{
 	color:white;
     display: block;
-    padding: 3%;
     font-size: 120%;
     text-decoration: none;
 }
-a:hover{
+a:hover {
     background-color: lightgrey;
+    display: block;
 }
 nav{
     margin-top: 1%;
@@ -38,16 +37,11 @@ nav{
     text-align: center;
 	margin-bottom:2%;
 }
-footer{
-    background-color: darkslategrey;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 1%;
-}
+
 form{
     margin-top: 3%;
 }
-.a1{
+.email{
     margin-top: 1%;
 }
 
@@ -94,11 +88,11 @@ form{
     border-radius: 8px;
     margin: 10px 10% 10px 45%;
   }  
-.img2{
+.main_logo{
     width: 35%;
     height: 25%;
 }
-.mnv{
+.info-head{
 	margin: 2%;
 	font-size:24px;
 	color: black; 
@@ -118,20 +112,20 @@ form{
 	border-bottom: dashed  ;
 	border-bottom-color:black;
 }
-.bor{
+.info-border{
 	border-style: double;
 	margin: 2%;
 	padding: 2%;
 	font-family: 'Georgia';
 }
-.img3{
+.person_img{
 	width: 45%;
     height: 110%;
 	border-radius: 50%;
 	position: absolute;
 	right:30%;
 }
-.mar{
+.help{
 	font-family: 'Georgia';
 	margin: 2%;
 	padding:2%;
@@ -141,25 +135,18 @@ form{
 	border-bottom-color:black;
 	margin-top:-2%
 }
-.det{
-	text-align:center;
-	margin: 2%;
-	padding:2%;
-	font-size:14px;
-	text-decoration:none;
-}
-.gui{
+.info-img{
 	width: 50%;
     height: 115%;
     padding-top: 1%;
 	position:absolute;
 	right:2%;
 }	
-.img4{
+.homeimg{
 	width: 100%;
     height: 100%;
 }
-.guid{
+.info{
 margin-top:5%;
 }
 table, th, td {
@@ -167,25 +154,11 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-.mainpage{
-    background-image: url('https://gdurl.com/lBtYk');
-    background-color: transparent;
-    background-attachment: fixed;
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .mainbtn{
-    position: absolute;
-    left: 40%;
-    margin-top: 45%;
-    width: 25%;
+    width: 50%;
 }
 .mainbtn2{
-    position: absolute;
-    left: 40%;
-    margin-top: 80%;
-    width: 25%;
+    margin-bottom: 3%;
 }
 .details{
     width: 100%;
@@ -197,10 +170,18 @@ table, th, td {
 }
 
 /* footer */
-    
+footer{
+    background-color: darkslategrey;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    /* font-size: large; */
+}
+
 footer .row p{
     color: white;
 }
+
 
 footer .row i{
     color: white;
@@ -213,16 +194,52 @@ footer .row .contact span{
 footer .row .links h4{
     color: white;
 }
+.feed{
+    color: white;
+}
  
+
 .row a{
-    color: blanchedalmond;
+    color: white;
+}
+
+.row h4{
+    color: white;
 }
 
 
-/* media queries */
-
-@media (max-width:990px){
-    .img1{
-        
-    }
+.center1{
+    margin-top: 20%;
+}
+.camera{
+    position: absolute;
+    left: 2%;
+}
+a:link, .forgotpass {
+color: grey;
+font-size: 90%;
+text-decoration: none;
+text-align:center;
+}
+.maps{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.mapbody{
+    height: 100%;
+    min-height: 100%;
+}
+.mySlides {
+    display:none;
+	width:100%;
+	height:500px;
+}
+.forgot{
+	margin-top:2%;
+margin-bottom:2%;
+}
+#map {
+height: 90%;
+width: 100%;
 }
