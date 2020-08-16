@@ -1,63 +1,81 @@
-.logo{
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.logo {
     width: 100px;
     height: 80px;
     padding-top: 1%;
 }
- 
-.topbutton3{
-    /* width: 20%;
-    padding-top: 10%; */
+
+/* logo center */
+.mainpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
 }
-a:link{
-	color:white;
+
+a {
+    color: white;
     display: block;
-    font-size: 120%;
     text-decoration: none;
 }
+
 a:hover {
     background-color: lightgrey;
-    display: block;
 }
-nav{
+
+nav {
     margin-top: 1%;
     background-color: darkslategrey;
     text-align: center;
-	margin-bottom:2%;
+    margin-bottom: 2%;
 }
 
-form{
+form {
     margin-top: 3%;
 }
-.email{
+
+.email {
     margin-top: 1%;
 }
 
-.loginbox{
+.loginbox-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginbox {
     background: transparent;
     border: solid 2px;
-     border-radius: 16px;
-     width: 50%;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     padding: 10px;
+    border-radius: 16px;
+    width: 450px;
+    padding: 10px;
 }
-.loginbox h3{
+
+.loginbox h3 {
     color: black;
     font-size: 34px;
     font-weight: bold;
     font-family: 'Copperplate';
-    margin-left: 25%;
+    text-align: center;
 }
-.textbox{
+
+.textbox {
     background: none;
-    width: 50%;
     overflow: hidden;
-    padding: 16px 2px; 
-    margin-left: 25%;
+    padding: 16px 2px;
 }
-.textbox input{
+
+.textbox input {
     border: none;
     outline: none;
     color: black;
@@ -67,91 +85,106 @@ form{
     background: transparent;
     border-bottom: 2px solid #ca6f1a;
 }
-.logbutton{
+
+.logbutton {
     color: white;
     font-size: 16px;
     width: 80%;
     height: 20%;
     border-radius: 8px;
     margin: 10px 10% 10px 45%;
-  }  
-.main_logo{
+}
+
+.main_logo {
     width: 35%;
     height: 25%;
 }
-.info-head{
-	margin: 2%;
-	font-size:24px;
-	color: black; 
-	margin-top: 2%;
-	font-family: 'Georgia';
+
+.info-head {
+    margin: 2%;
+    font-size: 24px;
+    color: black;
+    margin-top: 2%;
+    font-family: 'Georgia';
 }
-.tab{
-	display: inline-block;
+
+.tab {
+    display: inline-block;
     margin-left: 40px;
 }
-.data{
-	margin: 2%;
-	padding: 2%;
-	color:#003333;
-	font-size: 16px;
-	font-family: 'Georgia';
-	border-bottom: dashed  ;
-	border-bottom-color:black;
+
+.data {
+    margin: 2%;
+    padding: 2%;
+    color: #003333;
+    font-size: 16px;
+    font-family: 'Georgia';
+    border-bottom: dashed;
+    border-bottom-color: black;
 }
-.info-border{
-	border-style: double;
-	margin: 2%;
-	padding: 2%;
-	font-family: 'Georgia';
+
+.info-border {
+    border-style: double;
+    margin: 2%;
+    padding: 2%;
+    font-family: 'Georgia';
 }
-.person_img{
-	width: 45%;
+
+.person_img {
+    width: 45%;
     height: 110%;
-	border-radius: 50%;
-	position: absolute;
-	right:30%;
+    border-radius: 50%;
+    position: absolute;
+    right: 30%;
 }
-.help{
-	font-family: 'Georgia';
-	margin: 2%;
-	padding:2%;
-	color: red;
-	font-size:24px;
-	border-bottom:dashed ;
-	border-bottom-color:black;
-	margin-top:-2%
+
+.help {
+    font-family: 'Georgia';
+    margin: 2%;
+    padding: 2%;
+    color: red;
+    font-size: 24px;
+    border-bottom: dashed;
+    border-bottom-color: black;
+    margin-top: -2%
 }
-.info-img{
-	width: 50%;
-    height: 115%;
-    padding-top: 1%;
-	position:absolute;
-	right:2%;
-}	
-.homeimg{
-	width: 100%;
+
+.info-img {
     height: 100%;
 }
-.info{
-margin-top:5%;
+
+.homeimg {
+    width: 100%;
+    height: 100%;
 }
-table, th, td {
-	text-align:center;
-  border: 1px solid black;
-  border-collapse: collapse;
+
+.info {
+    margin-top: 5%;
 }
-.mainbtn{
+
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.mainbtn {
     width: 50%;
+    background-color:rgba(250, 132, 21, 0.897);
 }
-.mainbtn2{
+
+.mainbtn2 {
     margin-bottom: 3%;
 }
-.details{
+
+.details {
     width: 100%;
     height: 50%;
 }
-.types{
+
+.types {
     width: 80%;
     height: 20%;
 }
@@ -168,41 +201,42 @@ table, th, td {
 }
 
 /* footer */
-footer{
+footer {
     background-color: darkslategrey;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 1%;
-    /* font-size: large; */
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
-footer .row p{
+footer .row p {
     color: white;
 }
 
-
-footer .row i{
+footer .row i {
     color: white;
 }
 
-footer .row .contact span{
+footer .row .contact span {
     color: white;
 }
 
-footer .row .links h4{
+footer .row .links h5 {
     color: white;
+    margin-bottom: 0
 }
-.feed{
-    color: white;
+
+footer .row .links a {
+    display: inline-block;
+    padding: 5px;
 }
  
+.feed{
+    color:white;
+}
 .row a{
     color: white;
 }
 
-footer .row h4 a{
-    color: white;
-}
 
 footer .row h4{
     color: white;
@@ -212,35 +246,103 @@ footer .row h4{
 .center1{
     margin-top: 20%;
 }
-.camera{
+
+.row h4 {
+    color: white;
+    margin-bottom:10px;
+}
+
+.camera {
     position: absolute;
     left: 2%;
 }
-a:link, .forgotpass {
-color: grey;
-font-size: 90%;
-text-decoration: none;
-text-align:center;
-}
-.maps{
+
+.maps {
     display: flex;
     width: 100%;
     height: 90%;
 }
-.mapbody{
+
+.mapbody {
     height: 100%;
     min-height: 100%;
 }
+
 .mySlides {
-    display:none;
-	width:100%;
-	height:500px;
+    display: none;
+    width: 100%;
+    height: 500px;
 }
-.forgot{
-	margin-top:2%;
-margin-bottom:2%;
+
+.login-link {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
+
+.login-link a {
+    color: grey;
+    font-size: 90%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-link a:hover {
+    text-decoration: none;
+    background: transparent;
+}
+
 #map {
-height: 90%;
-width: 100%;
+    height: 90%;
+    width: 100%;
+}
+
+.mainpage {
+    font-size: 18px;
+}
+
+.mainpage h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainpage .modal-header h4{
+    color: black;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 12px !important;
+    display: block;
+    color: white !important;
+}
+
+.navbar-nav .nav-item {
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .mySlides {
+        height: 300px;
+    }
+
+    footer .row .contact span {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    .mySlides {
+        height: 200px;
+    }
+
+    .loginbox {
+        width: 100%;
+    }
 }

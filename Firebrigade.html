@@ -3,56 +3,57 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-		<script src="https://kit.fontawesome.com/18d58514ea.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="https://gdurl.com/7d0a" class="logo">
-                </div>
-                <div class="col-md-2">
-                    <div  class="topbutton1">
-                        <a href="signup.html" class="btn btn-dark" role="button" aria-pressed="true">Signup</a>
+        <header>
+            <!-- top header -->
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo-box">
+                        <img src="https://gdurl.com/7d0a" class="logo">
                     </div>
-                </div>
-                <div class="col-md-2">
-                    <div  class="topbutton2">
-                        <a href="login.html" class="btn btn-dark" role="button" aria-pressed="true">Login</a>
+                    <div class="action-box">
+                        <a href="Signup.html" class="btn btn-dark" role="button" aria-pressed="true">Signup</a>
+                        <a href="Login.html" class="btn btn-dark" role="button" aria-pressed="true">Login</a>
                     </div>
                 </div>
             </div>
-            <nav>
-            <div class="row">
-                <div class="col-md-1">   
+            <!-- main header -->
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="crime.html">Crime</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ambulance.html">Ambulance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="firebrigade.html">Fire-Brigade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="womensafety.html">Women Safety</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-2">
-                     <a href="index.html" role="button" class="btn btn-transperant">Home</a>   
-                </div>
-                <div class="col-md-2">
-                    <a href="crime.html" role="button" class="btn btn-transperant">Crime</a>   
-                 </div>
-                 <div class="col-md-2">
-                    <a href="ambulance.html" role="button" class="btn btn-transperant">Ambulance</a>   
-                 </div>
-                 <div class="col-md-2">
-                    <a href="firebrigade.html" role="button" class="btn btn-transperant">Fire-Brigade</a>   
-                </div>
-                <div class="col-md-2">
-                    <a href="womensafety.html" role="button" class="btn btn-transperant">Women Safety</a>   
-                </div>
-                <div class="col-md-1">
-				</div>
-			</div>	
             </nav>
+		</header>
+		<!-- content -->
             <div class="container">
 				<div class="row">
 					<div class="info-head">
-						&#128293; Mission And Vision
+						Mission And Vision
 						<div class="data">
 							<span class="tab"></span>Responsible for the provision of fire protection as well as responding to building collapses, drownings, gas leakage, oil spillage, road and rail accidents, bird and animal rescues, fallen trees and taking appropriate action during natural disasters.
 						</div>
@@ -108,14 +109,14 @@
 					<div class="col-md-4">
 						<h4>Contact Us</h4>
 						<div class="contact">
-							<span><i class="fas fa-phone"></i>123-123-12</span>
-							<span><i class="fas fa-envelope"></i>info@e-safety.com</span>
+							<span><i class="fa fa-phone"></i>123-123-12</span>
+							<span><i class="fa fa-envelope"></i>info@e-safety.com</span>
 						</div>
 						<div class="links">
 							<h4>Follow us</h4>
-							<a href="javascript:void(0)"title="facebook"><i class="fab fa-facebook"></i></a>
-							<a href="javascript:void(0)"title="instagram"><i class="fab fa-instagram"></i></a>
-							<a href="javascript:void(0)"title="twitter"><i class="fab fa-twitter"></i></a>
+							<a href="javascript:void(0)"title="facebook"><i class="fa fa-facebook"></i></a>
+							<a href="javascript:void(0)"title="instagram"><i class="fa fa-instagram"></i></a>
+							<a href="javascript:void(0)"title="twitter"><i class="fa fa-twitter"></i></a>
 						</div>
 					</div>
 				</div>
@@ -144,5 +145,9 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
