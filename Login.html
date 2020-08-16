@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link href="style.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="loginbox">
-            <center>
-            <div>
-                <img src="https://gdurl.com/7d0a" class="main_logo">
-            </div>
-            </center>
-            <h3>Login</h3>
-            <div class="textbox">
-                <input type="text" placeholder="Email" name="" value="">
-            </div>
-            <div class="textbox">
-                <input type="password" placeholder="Password" name="" value="">
-            </div>
-            <div class="forgot">
-                <a data-toggle="modal" href="#myModal5" class="forgotpass" >Forgotten Password?</a>
-            </div>
-            <div>
-				<center><button type="button" class="btn btn-dark">Submit</button></center>
+        <div class="container loginbox-container">
+            <div class="loginbox">
+                <center>
+                <div>
+                    <img src="https://gdurl.com/7d0a" class="main_logo">
+                </div>
+                </center>
+                <h3>Login</h3>
+                <div class="textbox">
+                    <input type="text" placeholder="Email" name="" value="">
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="" value="">
+                </div>
+                <div>
+    				<center><button type="button" class="btn btn-dark">Submit</button></center>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="login-link">
+                        <a href="Signup.html">Create Account</a>
+                    </div>
+                    <div class="login-link">
+                        <a data-toggle="modal" href="#myModal5">Forgotten Password?</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="myModal5" class="modal fade" role="dialog">
@@ -52,5 +57,10 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

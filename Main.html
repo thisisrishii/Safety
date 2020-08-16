@@ -1,188 +1,182 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="https://gdurl.com/7d0a" class="logo">
-            </div>
-            <div class="col-2">
-                <div>
-                    <a href="Index.html" class="btn btn-dark " role="button" aria-pressed="true"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                      </svg></a>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo-box">
+                    <img src="https://gdurl.com/7d0a" class="logo">
                 </div>
-            </div>
-            <div class="col-4">
-                <div>
+                <div class="action-box">
+                    <a href="Index.html" class="btn btn-dark " role="button" aria-pressed="true">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        </svg>
+                    </a>
                     <a href="Index.html" class="btn btn-dark " role="button" aria-pressed="true">Log Out</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container mainpage">
-        <div class="row">
-            <div class="col-md-12">
-                <center class="center1">
-                    <!-- Trigger the modal with a button -->
-                    <div class="mainbtn2">
-                        <button type="button" class="btn btn-warning btn-lg mainbtn" data-toggle="modal"
+            <div class="container mainpage">
+                <h2>Request a Service</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <center>
+                        <!-- Trigger the modal with a button -->
+                        <div class="mainbtn2">
+                            <button type="button" class="btn btn-warning btn-lg mainbtn" data-toggle="modal"
                             data-target="#myModal">Crimes</button>
-                        <div id="myModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Enter Crime Details</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <label for="crime">Select the crime:</label>
-                                        <select id="crime" class="form-control" name="crime" size="1">
-                                            <option value="select">--select--</option>
-                                            <option value="Roberry">Roberry</option>
-                                            <option value="Kidnapping">Kidnapping</option>
-                                            <option value="Assault">Assault</option>
-                                            <option value="Child abuse">Child abuse</option>
-                                            <option value="FalseImprisonment">False Imprisonment</option>
-                                            <option value="Rape">Rape</option>
-                                            <option value="Arson">Arson</option>
-                                            <option value="Homicide">Homicide</option>
-                                            <option value="Theft">Theft</option>
-                                            <option value="Child Pornography">Child Pornography</option>
-                                        </select>
-                                        <div>
-                                            <label for="Description">Description:</label>
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Enter Crime Details</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-                                        <div>
-                                            <textarea id="Description" name="Description"
+                                        <div class="modal-body">
+                                            <label for="crime">Select the crime:</label>
+                                            <select id="crime" class="form-control" name="crime" size="1">
+                                                <option value="select">--select--</option>
+                                                <option value="Roberry">Roberry</option>
+                                                <option value="Kidnapping">Kidnapping</option>
+                                                <option value="Assault">Assault</option>
+                                                <option value="Child abuse">Child abuse</option>
+                                                <option value="FalseImprisonment">False Imprisonment</option>
+                                                <option value="Rape">Rape</option>
+                                                <option value="Arson">Arson</option>
+                                                <option value="Homicide">Homicide</option>
+                                                <option value="Theft">Theft</option>
+                                                <option value="Child Pornography">Child Pornography</option>
+                                            </select>
+                                            <div>
+                                                <label for="Description">Description:</label>
+                                            </div>
+                                            <div>
+                                                <textarea id="Description" name="Description"
                                                 placeholder="Details about crime.." class="details"> </textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                            <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
-                                          </svg></button>
-                                        <button type="button" class="btn btn-success"
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                                <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                            </svg></button>
+                                            <button type="button" class="btn btn-success"
                                             data-dismiss="modal">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="mainbtn2">
-                        <button type="button" class="btn btn-danger btn-lg mainbtn" data-toggle="modal"
+                        <div class="mainbtn2">
+                            <button type="button" class="btn btn-danger btn-lg mainbtn" data-toggle="modal"
                             data-target="#myModal1">Ambulance</button>
-                        <div id="myModal1" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Enter Ambulance Details</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div>
-                                            <label for="Description">Description:</label>
+                            <div id="myModal1" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Enter Ambulance Details</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-                                        <div>
-                                            <textarea id="Description" name="Description"
+                                        <div class="modal-body">
+                                            <div>
+                                                <label for="Description">Description:</label>
+                                            </div>
+                                            <div>
+                                                <textarea id="Description" name="Description"
                                                 placeholder="Details about crime.." class="details"> </textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                            <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
-                                          </svg></button>
-                                        <button type="button" class="btn btn-success"
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                                <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                            </svg></button>
+                                            <button type="button" class="btn btn-success"
                                             data-dismiss="modal">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="mainbtn2">
-                        <button type="button" class="btn btn-danger btn-lg mainbtn" data-toggle="modal"
+                        <div class="mainbtn2">
+                            <button type="button" class="btn btn-danger btn-lg mainbtn" data-toggle="modal"
                             data-target="#myModal2">Fire-Brigade</button>
-                        <div id="myModal2" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Enter Fire-Brigade Details</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div>
-                                            <label for="Description">Description:</label>
+                            <div id="myModal2" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Enter Fire-Brigade Details</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-                                        <div>
-                                            <textarea id="Description" name="Description"
+                                        <div class="modal-body">
+                                            <div>
+                                                <label for="Description">Description:</label>
+                                            </div>
+                                            <div>
+                                                <textarea id="Description" name="Description"
                                                 placeholder="Details about crime.." class="details"> </textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                            <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
-                                          </svg></button>
-                                        <button type="button" class="btn btn-success"
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                                <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                            </svg></button>
+                                            <button type="button" class="btn btn-success"
                                             data-dismiss="modal">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="mainbtn2">
-                        <button type="button" class="btn btn-warning btn-lg mainbtn" data-toggle="modal"
+                        <div class="mainbtn2">
+                            <button type="button" class="btn btn-warning btn-lg mainbtn" data-toggle="modal"
                             data-target="#myModal3">Women Safety</button>
-                        <div id="myModal3" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Enter Women Safety Details</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div>
-                                            <label for="Description">Description:</label>
+                            <div id="myModal3" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Enter Women Safety Details</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-                                        <div>
-                                            <textarea id="Description" name="Description"
+                                        <div class="modal-body">
+                                            <div>
+                                                <label for="Description">Description:</label>
+                                            </div>
+                                            <div>
+                                                <textarea id="Description" name="Description"
                                                 placeholder="Details about crime.." class="details"> </textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                                            <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
-                                          </svg></button>
-                                        <button type="button" class="btn btn-success"
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light camera" data-dismiss="modal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                                <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                            </svg></button>
+                                            <button type="button" class="btn btn-success"
                                             data-dismiss="modal">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        </center>
                     </div>
-                </center>
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-
-</html>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        </body>
+    </html>
