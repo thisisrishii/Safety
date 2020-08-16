@@ -1,76 +1,74 @@
-.logo{
+.logo {
     width: 100px;
     height: 80px;
     padding-top: 1%;
     text-align: center;
     float: left;
 }
- 
-/* logo center */
 
-.topbutton1{
-    width: 50%;
-    text-align: center;
-    padding-top: 10%;
+/* logo center */
+.mainpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
 }
-.topbutton2{
-    width: 50%;
-    padding-top: 10%;
-}
-.topbutton3{
-    width: 20%;
-    padding-top: 10%;
-}
-a:link{
-	color:white;
+
+a {
+    color: white;
     display: block;
     font-size: 120%;
     text-decoration: none;
 }
+
 a:hover {
     background-color: lightgrey;
-    display: block;
 }
-nav{
+
+nav {
     margin-top: 1%;
     background-color: darkslategrey;
     text-align: center;
-	margin-bottom:2%;
+    margin-bottom: 2%;
 }
 
-form{
+form {
     margin-top: 3%;
 }
-.email{
+
+.email {
     margin-top: 1%;
 }
 
-.loginbox{
+.loginbox {
     background: transparent;
     border: solid 2px;
-     border-radius: 16px;
-     width: 50%;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     padding: 10px;
+    border-radius: 16px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
-.loginbox h3{
+
+.loginbox h3 {
     color: black;
     font-size: 34px;
     font-weight: bold;
     font-family: 'Copperplate';
     margin-left: 25%;
 }
-.textbox{
+
+.textbox {
     background: none;
     width: 50%;
     overflow: hidden;
-    padding: 16px 2px; 
+    padding: 16px 2px;
     margin-left: 25%;
 }
-.textbox input{
+
+.textbox input {
     border: none;
     outline: none;
     color: black;
@@ -80,166 +78,192 @@ form{
     background: transparent;
     border-bottom: 2px solid #ca6f1a;
 }
-.logbutton{
+
+.logbutton {
     color: white;
     font-size: 16px;
     width: 80%;
     height: 20%;
     border-radius: 8px;
     margin: 10px 10% 10px 45%;
-  }  
-.main_logo{
+}
+
+.main_logo {
     width: 35%;
     height: 25%;
 }
-.info-head{
-	margin: 2%;
-	font-size:24px;
-	color: black; 
-	margin-top: 2%;
-	font-family: 'Georgia';
+
+.info-head {
+    margin: 2%;
+    font-size: 24px;
+    color: black;
+    margin-top: 2%;
+    font-family: 'Georgia';
 }
-.tab{
-	display: inline-block;
+
+.tab {
+    display: inline-block;
     margin-left: 40px;
 }
-.data{
-	margin: 2%;
-	padding: 2%;
-	color:#003333;
-	font-size: 16px;
-	font-family: 'Georgia';
-	border-bottom: dashed  ;
-	border-bottom-color:black;
+
+.data {
+    margin: 2%;
+    padding: 2%;
+    color: #003333;
+    font-size: 16px;
+    font-family: 'Georgia';
+    border-bottom: dashed;
+    border-bottom-color: black;
 }
-.info-border{
-	border-style: double;
-	margin: 2%;
-	padding: 2%;
-	font-family: 'Georgia';
+
+.info-border {
+    border-style: double;
+    margin: 2%;
+    padding: 2%;
+    font-family: 'Georgia';
 }
-.person_img{
-	width: 45%;
+
+.person_img {
+    width: 45%;
     height: 110%;
-	border-radius: 50%;
-	position: absolute;
-	right:30%;
+    border-radius: 50%;
+    position: absolute;
+    right: 30%;
 }
-.help{
-	font-family: 'Georgia';
-	margin: 2%;
-	padding:2%;
-	color: red;
-	font-size:24px;
-	border-bottom:dashed ;
-	border-bottom-color:black;
-	margin-top:-2%
+
+.help {
+    font-family: 'Georgia';
+    margin: 2%;
+    padding: 2%;
+    color: red;
+    font-size: 24px;
+    border-bottom: dashed;
+    border-bottom-color: black;
+    margin-top: -2%
 }
-.info-img{
-	width: 50%;
+
+.info-img {
+    width: 50%;
     height: 115%;
     padding-top: 1%;
-	position:absolute;
-	right:2%;
-}	
-.homeimg{
-	width: 100%;
+    position: absolute;
+    right: 2%;
+}
+
+.homeimg {
+    width: 100%;
     height: 100%;
 }
-.info{
-margin-top:5%;
+
+.info {
+    margin-top: 5%;
 }
-table, th, td {
-	text-align:center;
-  border: 1px solid black;
-  border-collapse: collapse;
+
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-.mainbtn{
+
+.mainbtn {
     width: 50%;
 }
-.mainbtn2{
+
+.mainbtn2 {
     margin-bottom: 3%;
 }
-.details{
+
+.details {
     width: 100%;
     height: 50%;
 }
-.types{
+
+.types {
     width: 80%;
     height: 20%;
 }
 
 /* footer */
-footer{
+footer {
     background-color: darkslategrey;
     text-align: center;
     margin-top: 4%;
-    margin-bottom: 1%;
-    /* font-size: large; */
+    margin-bottom: 1%;    /* font-size: large; */
 }
 
-footer .row p{
+footer .row p {
     color: white;
 }
 
-
-footer .row i{
+footer .row i {
     color: white;
 }
 
-footer .row .contact span{
+footer .row .contact span {
     color: white;
 }
 
-footer .row .links h4{
-    color: white;
-}
-.feed{
-    color: white;
-}
- 
-
-.row a{
+footer .row .links h4 {
     color: white;
 }
 
-.row h4{
+.feed {
     color: white;
 }
 
+.row a {
+    color: white;
+}
 
-.center1{
+.row h4 {
+    color: white;
+}
+
+.center1 {
     margin-top: 20%;
 }
-.camera{
+
+.camera {
     position: absolute;
     left: 2%;
 }
-a:link, .forgotpass {
-color: grey;
-font-size: 90%;
-text-decoration: none;
-text-align:center;
+
+.forgotpass {
+    color: grey;
+    font-size: 90%;
+    text-decoration: none;
+    text-align: center;
 }
-.maps{
+
+.maps {
     display: flex;
     width: 100%;
     height: 90%;
 }
-.mapbody{
+
+.mapbody {
     height: 100%;
     min-height: 100%;
 }
+
 .mySlides {
-    display:none;
-	width:100%;
-	height:500px;
+    display: none;
+    width: 100%;
+    height: 500px;
 }
-.forgot{
-	margin-top:2%;
-margin-bottom:2%;
+
+.forgot {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
+
 #map {
-height: 90%;
-width: 100%;
+    height: 90%;
+    width: 100%;
+}
+
+.mainpage .modal-header h4{
+    color: black;
 }
